@@ -4,6 +4,7 @@ require 'rack-flash'
 require 'rest_client'
 require './app/models/cheet.rb'
 require './app/models/tag.rb'
+require './app/models/user.rb'
 
 
 env = ENV["RACK_ENV"] || "development"
