@@ -3,6 +3,8 @@ require 'data_mapper'
 require 'rack-flash'
 require 'rest_client'
 require './app/models/cheet.rb'
+require './app/models/tag.rb'
+
 
 env = ENV["RACK_ENV"] || "development"
 # we're telling datamapper to use a postgres database on localhost. The name will be "bookmark_manager_test" or "bookmark_manager_development" depending on the environment
