@@ -1,6 +1,5 @@
 require 'spec_helper.rb'
 
-
 describe User do 
 
 	before do 
@@ -32,5 +31,5 @@ describe User do
 			:password_confirmation => "secureshittter")
 	expect(User.count).to eq (1)
 	end
-	
+
 end

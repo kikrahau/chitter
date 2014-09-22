@@ -2,9 +2,9 @@ require 'spec_helper.rb'
 
 describe Cheet do 
 
-		it 'is not in the database, before being created' do
-			expect(Cheet.count).to eq(0)
-		end
+	it 'is not in the database, before being created' do
+		expect(Cheet.count).to eq(0)
+	end
 	context 'creation' do 
 		before do
    			Timecop.freeze(Time.local(2014))

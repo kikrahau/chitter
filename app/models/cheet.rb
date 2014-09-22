@@ -1,4 +1,5 @@
 class Cheet
+	
 	include DataMapper::Resource
 
 	has n, :tags, :through => Resource
